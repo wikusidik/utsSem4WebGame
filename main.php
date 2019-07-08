@@ -15,6 +15,8 @@ $hints = $_SESSION['hints'];
 	//============================functions run here===========================
 		$(document).ready(function(){
 			win = false;
+			//=================================================================
+			//=================================================================
 			// ====================questBox section============================
 			//document.oncontextmenu = function(){return false;};
 			setInterval(function(){startCounter++;$("#timer").text(startCounter);},1000);
