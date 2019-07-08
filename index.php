@@ -6,6 +6,7 @@
 	<script>
 		$(document).ready(function(){
 			win = false;
+			//=================================================================
 			// ====================questBox section============================
 			//document.oncontextmenu = function(){return false;};
 			$("#difficult").change(function(){
