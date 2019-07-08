@@ -32,6 +32,7 @@
 			<div id = "questionField">
 				<table>
 					<tr>
+						//pilih level
 						<td>
 							Select difficulty
 						</td>
