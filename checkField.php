@@ -28,7 +28,7 @@
 				$rowloc = $row % 3;
 				$colloc = $col % 3;
 
-				//set scan for other cells in 3x3 field, ini buat rownya
+				//set scan for other cells in 3x3 field, untuk rownya
 				if($rowloc == 1){
 					$temprow1 = $row;
 					$temprow2 = $row + 1;
