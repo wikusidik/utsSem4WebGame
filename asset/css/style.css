@@ -1,0 +1,228 @@
+*{
+	margin : 0;
+	padding : 0;
+	text-decoration : none;
+}
+#header{
+	width : 100%;
+	height : 80px;
+	background-color : #000000;
+}
+body{
+	background-image: url(../../img/BG.png);
+	background-size : 100% 100%;
+}
+#logo-sudoku{
+	height : 100%;
+	width : 40%;
+	float : left;
+	margin-left : 30px;
+}
+#logo-sudoku > #logo{
+	background-image : url(../../img/LOGOPUTIH.png);
+	background-size : 100% 100%;
+	background-repeat : no-repeat;
+	height : 100%;
+	width : 20%;
+	position : relative;
+	float : left;
+}
+#times{
+	height : 100%;
+	width : 40%;
+	float : right;
+	margin-right : 30px;
+}
+#times > #timer{
+	width : 40%;
+	height : 100%;
+	color : #ffffff;
+	font-size : 50px;
+	font-family : verdana;
+	float : right;
+	position : relative;
+}
+#container{
+	width : 40%;
+	margin-left:30%;
+	min-height : 530px;
+	max-height : 600px;
+}
+#main{
+	position : relative;
+	border-style : outset;
+	border-width : 10px;
+	border-color : #cccccc;
+	height : 100%;
+	margin-top: 20px;
+}
+#nav{
+	width : 25%;
+	height : auto;
+	min-height : 300px;
+	position : relative;
+	float : left;
+	margin-left : 30px;
+	margin-top : 30px;
+}
+.clear{
+	clear : both;
+}
+#footer{
+	width : 100%;
+	height : 30px;
+	margin-top : 50px;
+	background-color : #000000;
+	color : #ffffff;
+	text-align : center;
+	padding-top : 10px;
+}
+.wrap{
+	width : 100%;
+	height : 100%;
+	position : fixed;
+	display : block;
+}
+.darken{
+	background-color : #aaaaaa;
+	opacity : 0.4;
+}
+#popupQuest{
+	width : 500px;
+	height : 400px;
+	position : absolute;
+	left : 433px;
+	top : 100px;
+	background-color : #ffffff;
+	display : block;
+	border-style : groove;
+	border-width : thin;
+	border-radius : 10px;
+	z-index : 1;
+}
+#popupQuest > #upper{
+	width : 100%;
+	height : auto;
+	min-height : 30px;
+	
+}
+#popupQuest > #heading{
+	width : 100%;
+	height : 60px;
+	text-align : center;
+	font-family : verdana;
+}
+#popupQuest > #questionField{
+	width : 80%;
+	margin-left : 30px;
+	margin-top : 50px;
+	min-height : 150px;
+	height : auto;
+	text-align : left;
+}
+#popupQuest #difficult{
+	width : 100px;
+	border-radius : 5px;
+}
+#popupQuest > #buttonField{
+	width : 80%;
+	height : 50px;
+	margin-left : 30px;
+	display : none;
+}
+.buttonField{
+	width : 100px;
+	height : 30px;
+	background-color : #000000;
+	color : #ffffff;
+	border : 0;
+	border-radius : 5px;
+	font-family : verdana;
+}
+.pullLeft{
+	float : left;
+	position : relative;
+}
+.pullRight{
+	float : right;
+	position : relative;
+}
+.limitAlert{
+	color : #000000;
+	font-size : 14px;
+	background-color : #ffffff;
+	border-style : groove;
+	border-width : thin;
+	border-color : #ff0000;
+	top : 30px;
+	left : 30px;
+}
+#alertRule{
+	width : 200px;
+	height : 30px;
+	position : absolute;
+	display : none;
+}
+#detailLevel{
+	display : none;
+	margin-top : 30px;
+}
+#mainField{
+	margin : 0;
+	padding : 0;
+}
+
+#mainField td{
+	margin : 0;
+	padding : 0;
+	white-space : nowrap;
+}
+
+textarea {
+    resize : none;
+    font-size: 55px;
+    line-height:0.5em;
+    padding: 0;
+    margin: 0;
+    width : 100%;
+    height: 90%;
+}
+
+.cells{
+	padding-top:5px;
+}
+
+.button{
+	position : relative;
+	width : 100%;
+	height : 100%;
+	background-color : #55ff00;
+	background-image : "";
+}
+.button:hover{
+	background-color : #aaff55;
+}
+.button:active{
+	background-color : #00aa00;
+}
+#tabel{
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 100px;
+}
+#gambar1{
+	float: left;
+	margin-top: -50px;
+	margin-left: 100px;
+	margin-bottom: 200px;
+}
+#gambar2{
+	float: left;
+	margin-top: -10px;
+	margin-left: 134px;
+	margin-right: 100px;
+}
+#gambar3{
+	float: left;
+	margin-top: 10px;
+}

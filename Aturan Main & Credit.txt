@@ -1,0 +1,22 @@
+SUDOKU SIMPLIFIED RANDOMIZE FIELD
+
+====================================================
+Aturan Main:
+====================================================
+Isikan angka antara 1-9 di kotak yang disediakan dengan aturan:
+	1. angka sebaris kiri-kanan tidak boleh sama
+	2. angka sekolom atas-bawah tidak boleh sama
+	3. angka dalam kotak 3x3 tidak boleh sama
+
+
+
+====================================================
+Created By:
+====================================================
+	Adhika Yoga P			K3517001
+	Argya Naradipa P 		K3517011
+	Dwi Oktavia				K3517021
+	Ismoyo Putro			K3517031
+	Muhammad Saad			K3517041
+	Ridhwan Ray R 			K3517051
+	Wiku Sidik D 			K3517061
