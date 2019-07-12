@@ -1,6 +1,11 @@
 <!DOCTYPE HTML>
 <?php 
-session_start();
+if (isset($_SESSION)){
+    session_destroy();
+    session_start();}
+    else{
+        session_start();
+    }
 $hints = $_SESSION['hints'];
 ?>
 <html>
